@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Playfair+Display&display=swap');
+:root {
+    --teksti: #333333;
+    --bg-dark: #181616;
+    --vaalea: #c2b0b0;
+    --teksti-vaalea: #f1d8d8;
+    --hightlight: #913d3d;
+    --tausta: #eeeeee;
+    --laatikko: #5f5e5e;
+    --dark: #464747;
+    --text: #8e3899;
+    --shadow: rgb(114 4 68);
+    --white: #ffffff;
+    --grey: #333333;
+    --light: #605f5f;
+    --box: #9b84db;
+    --button: #4d3396;
+    --black: #000000;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: var(--teksti);
+    color: var(--teksti);
+    margin-top: 0px;
+}
+#toppart{
+    margin-top: 10px;
+}
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-dark);
+    overflow-x: hidden;
+    padding-top: 10px;
+    transition: 0.6s;
+}
+.sidenav a {
+    color: var(--teksti-vaalea);
+    padding: 18px;
+    text-decoration: none;
+    display: block;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.sidenav a:hover {
+    background-color: var(--vaalea);
+    color: black;
+    opacity: 0.8;
+}
+.sidenav .closebtn {
+    position: center;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10;
+    padding-right: 10px;
+}
+#menu{
+    font-size:35px;
+    cursor:pointer;
+    background-color: var(--vaalea);
+    border-radius: 10%;
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+#imagetop{
+    width: 100%;
+    height: 130px;
+    background-size: cover;
+    border: 1px solid var(--black);
+}
+#name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    background-color: var(--vaalea);
+    color: var(--black);
+    text-shadow: 2px 2px 3px var(--black), 0 0 25px var(--bg-dark), 0 0 5px var(--light);
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+    text-decoration: solid;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: -30px;
+}
+#text{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    background-color: var(--vaalea);
+    color: var(--teksti);
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 500px;
+    text-decoration: solid;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: -30px;
+    text-indent: 10px;
+    text-align: justify;
+    letter-spacing: 3px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 100px;
+}
+#imageFlowers {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;/*  behind everything   */
+}
