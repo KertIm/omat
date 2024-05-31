@@ -107,11 +107,9 @@ body {
     padding-bottom: 20px;
     width: 500px;
     text-decoration: solid;
-    text-align: center;
     margin-left: 35%;
     margin-top: -30px;
     text-indent: 10px;
-    text-align: justify;
     letter-spacing: 3px;
     padding-left: 15px;
     padding-right: 15px;
@@ -122,4 +120,5 @@ body {
     bottom: 0;
     width: 100%;
     z-index: -1;/*  behind everything   */
+    opacity: 0.8;
 }
