@@ -122,3 +122,42 @@ body {
     z-index: -1;/*  behind everything   */
     opacity: 0.8;
 }
+@media (max-width: 800px) {
+	#name {
+	  font-size: 40px; 
+      margin-top: 15px;
+      margin-left: 20%;
+      width: 400px;
+	}
+	#text{
+		font-size: 15px; 
+        margin-left: 20%;
+        width: 400px;
+	}
+}
+@media (max-width: 550px) {
+	#name {
+	  font-size: 40px; 
+      margin-top: 15px;
+      margin-left: 10%;
+      width: 350px;
+	}
+	#text{
+		font-size: 15px; 
+        margin-left: 10%;
+        width: 350px;
+	}
+}
+@media (max-width: 400px) {
+	#name {
+	  font-size: 30px; 
+      margin-top: 15px;
+      margin-left: 3%;
+      width: 340px;
+	}
+	#text{
+		font-size: 15px; 
+        margin-left: 3%;
+        width: 340px;
+	}
+}
